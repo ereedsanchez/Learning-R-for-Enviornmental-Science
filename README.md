@@ -13,11 +13,32 @@ Sign up for [Replit](https://replit.com/) using your gmail account.
 - Email me  at ereedsanchez@gmail.com with me your username. 
 - My replit uysername is: [replit.com/@ereedsanchez](https://replit.com/@ereedsanchez)
 
+## Lesson 4 | Wolves and Moose Data Complex Graphs 
+
+#### R! Code 
+```
+data <- read.csv('IsleData.csv')
+# print(data) # See if data is imported
+year <- data[ , c(1)] #variable year, 
+wolves <- data[ , c(2)]
+moose <- data[ , c(3)]
+
+# Wolves Graph
+plot(year, wolves, type="l", col="red", axes=FALSE)
+axis(2, ylim=c(1,50), col="red",las=1)
+axis(1, ylim=c(1980,2020),col="black",las=1)
+box()
+
+# Moose Graph
+par(new=TRUE)
+plot(year, moose, type="l", col="green", axes=FALSE, ylab = "")
+axis(4, ylim=c(1,3000), col="green",las=1)
+```
+----------
 
 
 
 ## Lesson 3 | Wolves and Moose Data 
-
 
 #### R! Code 
 
@@ -31,10 +52,6 @@ moose <- data[ , c(3)]
 plot(year, (wolves*20), type="l", col="brown", ylim=c(1,2500))
 lines(year, moose, type="l", col="green")
 ```
-
-
-
-
 ----------
 
 ## Lesson 1 - The Basics
