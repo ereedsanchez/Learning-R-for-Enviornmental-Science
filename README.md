@@ -48,13 +48,15 @@ mtext("Moose", side = 4, line = 3, col = "green")
 ##### plot
 `plot(year, wolves, type="l", col="red", axes=FALSE)`
 `plot(x-axis, y-axis, type="", col="", axes=TRUE/FALSE)`
-Plot Documentation: https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/plot
+Plot Documentation 1: https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/plot
+Plot Documentation 2: https://www.digitalocean.com/community/tutorials/plot-function-in-r
 
 ##### par
 R also allows combining multiple graphs into a single image for our viewing convenience using the par() function. We only need to set the space before calling the plot function in our graph.
 
 ##### axis customization 
-https://r-charts.com/base-r/axes/
+Axis Documentation: https://r-charts.com/base-r/axes/
+
 ----------
 
 
