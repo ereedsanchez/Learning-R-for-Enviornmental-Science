@@ -15,7 +15,19 @@ Sign up for [Replit](https://replit.com/) using your gmail account.
 
 ## Lesson 4 | Wolves and Moose Data Complex Graphs 
 
-#### R! Code 
+#### Learn
+
+##### plot
+`plot(year, wolves, type="l", col="red", axes=FALSE)`
+`plot(x-axis, y-axis, type="", col="", axes=TRUE/FALSE)`
+Plot Documentation: https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/plot
+
+
+
+##### par
+R also allows combining multiple graphs into a single image for our viewing convenience using the par() function. We only need to set the space before calling the plot function in our graph.
+
+#### Full R! Wolves and Moose Data Code 
 ```
 data <- read.csv('IsleData.csv')
 # print(data) # See if data is imported
