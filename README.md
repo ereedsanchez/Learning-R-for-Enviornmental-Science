@@ -17,35 +17,44 @@ Sign up for [Replit](https://replit.com/) using your gmail account.
 
 #### Learn
 
-##### plot
-`plot(year, wolves, type="l", col="red", axes=FALSE)`
-`plot(x-axis, y-axis, type="", col="", axes=TRUE/FALSE)`
-Plot Documentation: https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/plot
-
-
-
-##### par
-R also allows combining multiple graphs into a single image for our viewing convenience using the par() function. We only need to set the space before calling the plot function in our graph.
 
 #### Full R! Wolves and Moose Data Code 
 ```
 data <- read.csv('IsleData.csv')
 # print(data) # See if data is imported
-year <- data[ , c(1)] #variable year, 
+year <- data[ , c(1)] 
 wolves <- data[ , c(2)]
 moose <- data[ , c(3)]
 
 # Wolves Graph
+par(mar = c(5, 4, 4, 4) + 0.25)
 plot(year, wolves, type="l", col="red", axes=FALSE)
 axis(2, ylim=c(1,50), col="red",las=1)
 axis(1, ylim=c(1980,2020),col="black",las=1)
 box()
 
 # Moose Graph
-par(new=TRUE)
-plot(year, moose, type="l", col="green", axes=FALSE, ylab = "")
+par(new=TRUE, mar = c(5, 4, 4, 4) + 0.25)
+plot(year, moose, type="l", col="green", ylab = "", axes=FALSE)
+# New axis
 axis(4, ylim=c(1,3000), col="green",las=1)
+# Axis label
+mtext("Moose", side = 4, line = 3, col = "green")
+
 ```
+
+#### Understand
+
+##### plot
+`plot(year, wolves, type="l", col="red", axes=FALSE)`
+`plot(x-axis, y-axis, type="", col="", axes=TRUE/FALSE)`
+Plot Documentation: https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/plot
+
+##### par
+R also allows combining multiple graphs into a single image for our viewing convenience using the par() function. We only need to set the space before calling the plot function in our graph.
+
+##### axis customization 
+https://r-charts.com/base-r/axes/
 ----------
 
 
