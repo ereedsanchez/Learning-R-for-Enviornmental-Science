@@ -48,13 +48,27 @@ mtext("Moose", side = 4, line = 3, col = "green")
 ##### plot
 `plot(year, wolves, type="l", col="red", axes=FALSE)`
 `plot(x-axis, y-axis, type="", col="", axes=TRUE/FALSE)`
+
 Plot Documentation 1: https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/plot
+
 Plot Documentation 2: https://www.digitalocean.com/community/tutorials/plot-function-in-r
+
+##### type=""
+"p" for points,
+"l" for lines,
+"b" for both,
+"c" for the lines part alone of "b",
+"o" for both ‘overplotted’,
+"h" for ‘histogram’ like (or ‘high-density’) vertical lines,
+"s" for stair steps,
+"S" for other steps, see ‘Details’ below,
+"n" for no plotting.
+Plot Documentation 1: https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/plot
 
 ##### par
 R also allows combining multiple graphs into a single image for our viewing convenience using the par() function. We only need to set the space before calling the plot function in our graph.
 
-##### axis customization 
+##### Axis customization 
 Axis Documentation: https://r-charts.com/base-r/axes/
 
 ----------
