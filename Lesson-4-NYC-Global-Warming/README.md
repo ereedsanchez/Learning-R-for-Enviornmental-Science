@@ -14,3 +14,9 @@ We will use R! Coding to visualize climate change in NYC.
 2. Replit upload NYCtemp.csv - files/three dots/upload file
 
 3. CODE: https://replit.com/@ereedsanchez/NYC-Global-Warming
+
+
+Challenge 1: In current graph add additional plot for average yearly tempmax in Red
+Challenge 2: In current graph add plot for average yearly tempmin in Blue
+Challenge 1: Create new graph and plot average yearly percipitation. 
+Be sure to label your graphs. 
