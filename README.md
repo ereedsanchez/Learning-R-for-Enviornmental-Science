@@ -1,4 +1,4 @@
-# Learning R fro Enviornmental Science @ Belmont
+# Learning R fo rEnvironmental Science @ Belmont
 
 Hello, I am Edwin Reed-Sanchez and I love to program, hack and tinker with technology. I also enjoy teaching students the basic programming principals that are universal with all programming languages.  
 
@@ -67,9 +67,6 @@ var3 <- "hello"
 print(var3)
 ```
 
-
-
-
 ### Data Types - Strings - quotations 
 
 ```R
@@ -133,6 +130,13 @@ print(x%/%y)
 
 [Simple Bar Graphs in R](https://medium.com/beginner-at-bi-data-science-and-big-data/importing-data-into-r-from-a-csv-file-and-creating-a-chart-out-of-it-892d5bc81531_)
 
+## Lesson 2.1 | Basic Graphs
+
+```
+cars <- c(1, 3, 6, 4, 9)
+plot(cars, type="o", col="blue")
+title(main="Autos", col.main="red", font.main=4)
+```
 
 ------------------------
 
