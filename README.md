@@ -1,6 +1,6 @@
 # Learning R fo Environmental Science @ Belmont
 
-Hello, I am Edwin Reed-Sanchez and I love to program, hack and tinker with technology. I also enjoy teaching students the basic programming principles that are universal with all programming languages.  
+Hello, I am Edwin Reed-Sanchez and I love to program, hack, and tinker with technology. I also enjoy teaching students the basic programming principles that are universal to all programming languages.  
 
 For this class, we will be learning R, which is a widely programming language used for statistical and scientific analysis.  
 
@@ -9,9 +9,9 @@ For this class, we will be learning R, which is a widely programming language us
 - [R-studio](https://posit.co/downloads/)
 
 ## Software for Class
-Sign up for [Replit](https://replit.com/) using your gmail account. 
+Sign up for [Replit](https://replit.com/) using your Gmail account. 
 - Email me  at ereedsanchez@gmail.com with me your username. 
-- My replit uysername is: [replit.com/@ereedsanchez](https://replit.com/@ereedsanchez)
+- My replit username is: [replit.com/@ereedsanchez](https://replit.com/@ereedsanchez)
 
 ## Lesson 1 - The Basics
 Today we will learn about basic programs and syntax used in R. 
