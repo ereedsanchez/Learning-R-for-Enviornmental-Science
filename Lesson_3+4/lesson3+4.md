@@ -1,5 +1,6 @@
 ## Lesson 3 | Wolves and Moose Data 
 
+Lab Report: https://docs.google.com/document/d/1D0Gukk4ytfpeQ0RhHnq412C3nexpGXOgleCi2DAZ5PY/edit?usp=sharing
 DataSet: https://docs.google.com/spreadsheets/d/12M3CZlN1M3xWpR7FJZ5BURpqs1sxNTtaHzLc_UfKADc/edit#gid=0
 
 #### R! Code 
